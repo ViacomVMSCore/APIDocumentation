@@ -8,6 +8,7 @@ schemes:
 paths:
   /api/AliasUsers:
     get:
+      description: "Access to API Documentation"
       tags:
         - AliasUsers
       operationId: AliasUsers_GetAliasUsers
